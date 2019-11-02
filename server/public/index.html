@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/jquery.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Full Stack Task List</title>
+</head>
+<body>
+    <header>
+        <h1>What to doodley-doo-doo-doo?</h1>
+    </header>
+    <main>
+        <section class="inputs">
+            <h2>Doo doo this...</h2>
+            <input type="text" id="taskIn" placeholder="Write your task right here........" required>
+            <button type="button" id="addButton">Add Task</button>
+        </section>
+        <section>
+                <div id="content">
+                    <table align="center">
+                        <thead class="tableRow">
+                            <tr>
+                                <th>Task Name:</th>
+                                <th>Completed?</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                            <tbody id="taskDisplay">   
+                            </tbody>
+                    </table>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
